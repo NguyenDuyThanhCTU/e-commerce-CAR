@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300;400;500;600&family=Sora:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-violet{
+background-color: #6347F9;
+color: white;
+}
+.button-white{
+    background-color: white;
+    color: #6347F9;
+    border: 1px;
+    border-color: #6347F9;
+    border-style: solid;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #FDF5F7;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .img-container:hover img {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+  }
+  .img-container img {
+    transform: scale(1);
+    transition: transform 0.5s;
+    transition-delay: 0.1s;
+  }
+
+  

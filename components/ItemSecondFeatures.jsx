@@ -3,7 +3,7 @@ import React from "react";
 function ItemSecondFeatures(props) {
   const { nameItem, image, contact } = props;
   return (
-    <div className="w-[360px] h-[450px] bg-white  rounded-b-xl">
+    <div className="w-[360px] h-[450px] bg-white  rounded-b-xl ">
       <div className="w-[360px] h-[352px] ">
         <img className=" rounded-t-xl" src={image} alt="img" />
       </div>

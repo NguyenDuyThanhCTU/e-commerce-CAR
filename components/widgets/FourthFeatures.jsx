@@ -2,62 +2,66 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
 import "swiper/css";
-import { Autoplay } from "swiper";
+
+// import required modules
 
 import ItemSecondFeatures from "@components/ItemSecondFeatures";
 
-const SecondFeatures = () => {
+const FourthFeatures = () => {
   const slides = [
     {
       uid: "1aaaa",
-      name: "Dịch vụ chuyển nhà giá rẻ",
-      image: "/imgs/chuyennha.jpg",
+      name: "Xe tải cho thuê",
+      image: "/imgs/hom2.jpg",
     },
     {
       uid: "2bbbb",
-      name: "Nhanh chóng & Gọn gàng",
-      image: "/imgs/chuyennha1.jpg",
+      name: "Xe tải cho thuê",
+      image: "/imgs/home1.jpg",
     },
-
+    {
+      uid: "3cccc",
+      name: "Xe tải cho thuê",
+      image: "/imgs/home4.jpg",
+    },
     {
       uid: "3caccc",
-      name: "Đóng gói sạch sẽ",
-      image: "/imgs/chuyennha3.jpg",
+      name: "Xe tải cho thuê",
+      image: "/imgs/img4.jpg",
     },
     {
       uid: "5eeee",
-      name: "Chuyển máy lạnh",
-      image: "/imgs/chuyennha4.jpg",
+      name: "Xe tải cho thuê",
+      image: "/imgs/img5.jpg",
+    },
+    {
+      uid: "1aaasaaa",
+      name: "Xe tải cho thuê",
+      image: "/imgs/img6.jpg",
     },
   ];
   return (
     <div className="mx-44">
       <div>
         <h3 className="font-poppins font-bold text-[44px] mt-[55px] mb-[25px]">
-          DỊCH VỤ CHUYỂN NHÀ
+          THUÊ XE TẢI CẦN THƠ
         </h3>
         <p className="font-poppins font-normal text-gray5a w-[486px] pt-[20px] mb-[50px]">
-          Chúng tôi cung cấp dịch vụ chuyển nhà nhanh, gọn, dễ dàng giá rẻ{" "}
-          <p>
-            Chuyển nhà không còn là một gánh nặng khi bạn chọn dịch vụ của chúng
-            tôi!
-          </p>
+          Vận chuyển hàng hóa nhanh, gọn, dễ dàng. Giá cả cạnh tranh, đầu xe
+          phong phú các trọng tải, đi được hẻm nhỏ. Đồ nhỏ - đồ lớn chúng tôi
+          nhận hết !
         </p>
       </div>
 
       <div className="bg-[#FDF5F7] mb-[50px]">
         <Swiper
-          slidesPerView={2}
-          slidesPerGroup={2}
+          slidesPerView={3}
+          slidesPerGroup={3}
           spaceBetween={10}
           loop={true}
-          autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
-          }}
           className="mySwiper"
-          modules={[Autoplay]}
         >
           {slides.map((data) => (
             <SwiperSlide
@@ -75,4 +79,4 @@ const SecondFeatures = () => {
   );
 };
 
-export default SecondFeatures;
+export default FourthFeatures;

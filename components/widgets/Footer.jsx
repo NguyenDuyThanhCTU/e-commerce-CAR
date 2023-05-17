@@ -15,18 +15,18 @@ const Footer = () => {
             <a href="/">Liên hệ</a>
           </div>
         </div>
-        <div className="flex  flex-col">
-          <h3 className="font-poppins font-medium text-[18px] ml-15 mb-2">
+        <div className="flex items-center  flex-col">
+          <h3 className="font-poppins font-medium text-[18px]  mb-2">
             Từ khóa
           </h3>
           <div className="flex flex-col font-light text-[16px] font-poppins">
-            <a href="/">Xe tai cho thue can tho</a>
-            <a href="/">Dich vu xe tai cho hang can tho</a>
-            <a href="/">Xe tải chở thuê Cần Thơ</a>
-            <a href="/">Xe tải chở thuê Cần Thơ giá rẻ</a>
+            <a href="/">Xe tải cho thuê Cần Thơ</a>
+            <a href="/">Dịch vụ xe tải chở hàng Cần Thơ </a>
+            <a href="/">Thu mua đồ cũ Cần Thơ</a>
+            <a href="/">Chuyển nhà giá rẻ Cần Thơ</a>
           </div>
         </div>
-        <div className="flex  flex-col font-poppins ">
+        <div className="flex  flex-col items-center font-poppins ">
           <h3 className="font-poppins font-medium text-[18px] ml-15 mb-2">
             Thông tin liên hệ
           </h3>
@@ -48,9 +48,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-between text-[14px] font-poppins font-normal my-[36px]">
-        <p>Copyright © 2021ACEM</p>
-        <p>Thiết kế bởi 3B Việt Nam</p>
+      <div className="flex justify-center text-[14px] font-poppins font-normal my-[36px]">
+        <p className="pr-2">©2022 All Rights reserved ADS Company</p>
+        <p className="pl-2 border-l-[1px] border-gray-400">
+          Designed by Thanh Dev ADS Company
+        </p>
       </div>
     </div>
   );

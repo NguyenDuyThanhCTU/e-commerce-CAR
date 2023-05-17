@@ -12,7 +12,7 @@ const Introduction = () => {
         <div className="flex ">
           <div className="h-[430px] w-[537px]">
             <h2 className="font-sora font-bold text-[62px] leading-[72px]">
-              Dịch vụ xe tải chở thuê Cần Thơ
+              Dịch vụ xe tải chở thuê, Chuyển nhà, thu mua đồ cũ Cần Thơ giá rẻ
             </h2>
             <p className="font-poppins font-normal text-gray5a w-[486px] pt-[20px] mb-[42px]">
               Chúng tôi với đội ngũ xe đa dạng đầu xe, tài xế tận tâm chuyển
@@ -59,10 +59,60 @@ const Introduction = () => {
                   alt="introduction Image"
                 />
               </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <div>
+                  <img
+                    className="bg-[#FDF5F7] min-w-full h-auto object-contain "
+                    src="/imgs/slider1.jpg"
+                    alt="introduction Image"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <div>
+                  <img
+                    className="bg-[#FDF5F7] min-w-full h-auto object-contain "
+                    src="/imgs/slider2.jpg"
+                    alt="introduction Image"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <div>
+                  <img
+                    className="bg-[#FDF5F7] min-w-full h-auto object-contain "
+                    src="/imgs/slider3.jpg"
+                    alt="introduction Image"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <div>
+                  <img
+                    className="bg-[#FDF5F7] min-w-full h-auto object-contain "
+                    src="/imgs/slider4.jpg"
+                    alt="introduction Image"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <div>
+                  <img
+                    className="bg-[#FDF5F7] min-w-full h-auto object-contain "
+                    src="/imgs/slider5.jpg"
+                    alt="introduction Image"
+                  />
+                </div>
+              </SwiperSlide>
             </Swiper>
           </div>
         </div>
-        <div className="mt-[60px] mb-[42px] w-[985px] h-[120px] flex justify-between items-center px-10 bg-[#FDFEFF] rounded-xl ">
+        <div className="mt-[150px] mb-[20px] w-[985px] h-[120px] flex justify-between items-center px-10 bg-[#FDFEFF] rounded-xl ">
           <div className="w-[660px] h-[60px] border-b-[1px] border-gray-200 flex items-center justify-between ">
             <p className="font-poppins font-light text-gray5a text-[18px]">
               Gọi ngay <strong> 0907 115 677</strong> (A Trí) để được phục vụ

@@ -4,6 +4,8 @@ import SecondFeatures from "@components/widgets/SecondFeatures";
 import Subcription from "@components/widgets/Subcription";
 import Footer from "@components/widgets/Footer";
 import Header from "@components/widgets/Header";
+import ThirdFeatures from "@components/widgets/ThirdFeatures";
+import FourthFeatures from "@components/widgets/FourthFeatures";
 
 const page = () => {
   return (
@@ -13,11 +15,18 @@ const page = () => {
       </div>
 
       <Introduction />
+
       <div id="firstFeatures">
         <FirstFeatures />
       </div>
-      <div id="secondFeatures">
+      <div>
         <SecondFeatures />
+      </div>
+      <div className="">
+        <ThirdFeatures />
+      </div>
+      <div id="secondFeatures">
+        <FourthFeatures />
       </div>
       <div id="subcription">
         <Subcription />

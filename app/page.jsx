@@ -6,6 +6,7 @@ import Footer from "@components/widgets/Footer";
 import Header from "@components/widgets/Header";
 import ThirdFeatures from "@components/widgets/ThirdFeatures";
 import FourthFeatures from "@components/widgets/FourthFeatures";
+import Hotline from "@components/widgets/Hotline";
 
 const page = () => {
   return (
@@ -31,7 +32,9 @@ const page = () => {
       <div id="subcription">
         <Subcription />
       </div>
-
+      <div className="fixed bottom-10 right-1 ">
+        <Hotline />
+      </div>
       <Footer />
     </>
   );

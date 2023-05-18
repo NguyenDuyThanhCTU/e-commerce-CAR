@@ -49,5 +49,105 @@ color: white;
     transition: transform 0.5s;
     transition-delay: 0.1s;
   }
+  .call-animation {
+    padding: 10px;
+    background-color: rgb(221,51,51);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .call-animation::before {
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(221,51,51);
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+    border-radius: 50%;
+    animation: pulse 1s linear infinite
+  }
+  
+  .call-animation::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(221,51,51);
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+    border-radius: 50%;
+    animation: pulse 1s linear infinite;
+    animation-delay: 0.3s
+  }  
+  @keyframes pulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 0
+    }
+  
+    50% {
+        transform: scale(1);
+        opacity: 1
+    }
+  
+    100% {
+        transform: scale(1.3);
+        opacity: 0
+    }
+  }
+
+
+  @keyframes complex-animation {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px) rotate(0deg) scale(0);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0) rotate(360deg) scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(100px) rotate(720deg) scale(0);
+    }
+  }
+  
+  .complex-animation {
+    animation: complex-animation 3s ease-in-out infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(-20deg);
+    }
+    100% {
+      transform: rotate(20deg);
+    }
+  }
+  
+  .spin-animation {
+    animation: spin 1s linear infinite alternate;   
+     }
+
+     @keyframes blink {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+    }
+    
+    .blink-animation {
+      animation: blink 1s step-end infinite;
+    }
+    .transform90 {
+      transform: rotate(-90deg);
+    }
+    .transform0 {
+      transform: rotate(90deg);
+    }
+
 
   

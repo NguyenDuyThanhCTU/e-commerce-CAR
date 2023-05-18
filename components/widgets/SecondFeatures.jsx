@@ -10,25 +10,35 @@ import ItemSecondFeatures from "@components/ItemSecondFeatures";
 const SecondFeatures = () => {
   const slides = [
     {
-      uid: "1aaaa",
+      uid: "a",
       name: "Dịch vụ chuyển nhà giá rẻ",
       image: "/imgs/chuyennha.jpg",
     },
     {
-      uid: "2bbbb",
+      uid: "b",
       name: "Nhanh chóng & Gọn gàng",
       image: "/imgs/chuyennha1.jpg",
     },
 
     {
-      uid: "3caccc",
+      uid: "c",
       name: "Đóng gói sạch sẽ",
       image: "/imgs/chuyennha3.jpg",
     },
     {
-      uid: "5eeee",
+      uid: "d",
       name: "Chuyển máy lạnh",
       image: "/imgs/chuyennha4.jpg",
+    },
+    {
+      uid: "e",
+      name: "Dịch vụ chuyển nhà giá rẻ",
+      image: "/imgs/slider6.jpg",
+    },
+    {
+      uid: "f",
+      name: "Hút bụi sạch sẽ",
+      image: "/imgs/chuyennha2.gif",
     },
   ];
   return (
@@ -39,17 +49,17 @@ const SecondFeatures = () => {
         </h3>
         <p className="font-poppins font-normal text-gray5a w-[486px] pt-[20px] mb-[50px]">
           Chúng tôi cung cấp dịch vụ chuyển nhà nhanh, gọn, dễ dàng giá rẻ{" "}
-          <p>
+          <span>
             Chuyển nhà không còn là một gánh nặng khi bạn chọn dịch vụ của chúng
             tôi!
-          </p>
+          </span>
         </p>
       </div>
 
       <div className="bg-[#FDF5F7] mb-[50px]">
         <Swiper
-          slidesPerView={2}
-          slidesPerGroup={2}
+          slidesPerView={3}
+          slidesPerGroup={3}
           spaceBetween={10}
           loop={true}
           autoplay={{

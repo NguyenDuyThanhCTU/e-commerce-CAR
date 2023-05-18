@@ -14,7 +14,7 @@ const ThirdFeatures = () => {
     {
       uid: "1aaaa",
       name: "Thu mua đồ cũ giá cao",
-      image: "/imgs/slider4.jpg",
+      image: "/imgs/slider6.jpg",
     },
     {
       uid: "2bbbb",
@@ -34,7 +34,7 @@ const ThirdFeatures = () => {
     {
       uid: "5eeee",
       name: "Thu mua đồ cũ giá cao",
-      image: "/imgs/docu3.jpg",
+      image: "/imgs/slider4.jpg",
     },
     {
       uid: "1aaasaaa",

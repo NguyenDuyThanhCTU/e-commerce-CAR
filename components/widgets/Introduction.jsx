@@ -39,7 +39,7 @@ const Introduction = () => {
               <SwiperSlide>
                 <img
                   className="bg-[#FDF5F7]"
-                  src="https://ads-project3.s3.ap-southeast-2.amazonaws.com/Image.png"
+                  src="/imgs/slider6.jpg"
                   alt="introduction Image"
                 />
               </SwiperSlide>

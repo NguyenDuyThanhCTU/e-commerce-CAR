@@ -12,34 +12,52 @@ import ItemSecondFeatures from "@components/ItemSecondFeatures";
 const ThirdFeatures = () => {
   const slides = [
     {
-      uid: "1aaaa",
+      uid: "a",
       name: "Thu mua đồ cũ giá cao",
-      image: "/imgs/slider6.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/slider6.jpg",
     },
     {
       uid: "2bbbb",
       name: "Chuyên thu mua đồ cũ",
-      image: "/imgs/docu6.jpeg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/docu6.jpeg",
     },
     {
-      uid: "3cccc",
+      uid: "c",
       name: "Chuyên mua bán đồ cũ gia dụng",
-      image: "/imgs/docu1.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/docu1.jpg",
     },
     {
-      uid: "3caccc",
+      uid: "d",
       name: "Chuyên mua bán đồ cũ xưa",
-      image: "/imgs/docu2.JPG",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/docu2.JPG",
     },
     {
-      uid: "5eeee",
+      uid: "e",
       name: "Thu mua đồ cũ giá cao",
-      image: "/imgs/slider4.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/slider4.jpg",
     },
     {
-      uid: "1aaasaaa",
+      uid: "f",
       name: "Thu mua đồ cũ giá cao",
-      image: "/imgs/docu4.png",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/docu4.png",
+    },
+    {
+      uid: "g",
+      name: "Kho nội thất giá rẻ",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/add7.jpg",
+    },
+    {
+      uid: "h",
+      name: "TKho nội thất cũ giá rẻ",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/add8.jpg",
     },
   ];
   return (

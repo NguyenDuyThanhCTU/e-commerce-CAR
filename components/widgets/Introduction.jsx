@@ -39,7 +39,7 @@ const Introduction = () => {
               <SwiperSlide>
                 <img
                   className="bg-[#FDF5F7]"
-                  src="/imgs/slider6.jpg"
+                  src="https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/slider6.jpg"
                   alt="introduction Image"
                 />
               </SwiperSlide>
@@ -64,7 +64,7 @@ const Introduction = () => {
                 <div>
                   <img
                     className="bg-[#FDF5F7] min-w-full h-auto object-contain "
-                    src="/imgs/slider1.jpg"
+                    src="https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/slider1.jpg"
                     alt="introduction Image"
                   />
                 </div>
@@ -74,7 +74,7 @@ const Introduction = () => {
                 <div>
                   <img
                     className="bg-[#FDF5F7] min-w-full h-auto object-contain "
-                    src="/imgs/slider2.jpg"
+                    src="https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/slider2.jpg"
                     alt="introduction Image"
                   />
                 </div>
@@ -84,7 +84,7 @@ const Introduction = () => {
                 <div>
                   <img
                     className="bg-[#FDF5F7] min-w-full h-auto object-contain "
-                    src="/imgs/slider3.jpg"
+                    src="https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/slider3.jpg"
                     alt="introduction Image"
                   />
                 </div>
@@ -94,7 +94,7 @@ const Introduction = () => {
                 <div>
                   <img
                     className="bg-[#FDF5F7] min-w-full h-auto object-contain "
-                    src="/imgs/slider4.jpg"
+                    src="https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/slider4.jpg"
                     alt="introduction Image"
                   />
                 </div>
@@ -104,7 +104,7 @@ const Introduction = () => {
                 <div>
                   <img
                     className="bg-[#FDF5F7] min-w-full h-auto object-contain "
-                    src="/imgs/slider5.jpg"
+                    src="https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/slider5.jpg"
                     alt="introduction Image"
                   />
                 </div>

@@ -11,7 +11,10 @@ const Header = () => {
   return (
     <div className="flex z-10 fixed top-0 justify-between items-center h-[98px] w-full px-60 bg-[#FDF5F7]">
       <div className="w-[140px] h-[60px]">
-        <img src="imgs/logo.jpg" alt="logo" />
+        <img
+          src="https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/logo.jpg"
+          alt="logo"
+        />
       </div>
       <div className="flex flex-row items-center">
         <ul className=" flex flex-row font-poppins  w-[600px] justify-between relative">

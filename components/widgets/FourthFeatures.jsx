@@ -14,32 +14,38 @@ const FourthFeatures = () => {
     {
       uid: "1aaaa",
       name: "Xe tải cho thuê",
-      image: "/imgs/hom2.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/hom2.jpg",
     },
     {
       uid: "2bbbb",
       name: "Xe tải cho thuê",
-      image: "/imgs/home1.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/home1.jpg",
     },
     {
       uid: "3cccc",
       name: "Xe tải cho thuê",
-      image: "/imgs/home4.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/home4.jpg",
     },
     {
       uid: "3caccc",
       name: "Xe tải cho thuê",
-      image: "/imgs/img4.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/img4.jpg",
     },
     {
       uid: "5eeee",
       name: "Xe tải cho thuê",
-      image: "/imgs/img5.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/img5.jpg",
     },
     {
       uid: "1aaasaaa",
       name: "Xe tải cho thuê",
-      image: "/imgs/img6.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/img6.jpg",
     },
   ];
   return (

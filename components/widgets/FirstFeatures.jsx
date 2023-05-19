@@ -44,7 +44,7 @@ const FirstFeatures = () => {
           <>
             {" "}
             <ItemFirstFeatures
-              url="/imgs/add1.jpg"
+              url="https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/add1.jpg"
               text=" Xe Tải Chở Thuê Minh Trí Chở Từ 750kg - 20 Tấn."
             />
             <ItemFirstFeatures
@@ -52,11 +52,11 @@ const FirstFeatures = () => {
               text=" Xe Tải Chở Thuê Minh Trí Chở Từ 750kg - 20 Tấn."
             />
             <ItemFirstFeatures
-              url="/imgs/add3.jpg"
+              url="https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/add3.jpg"
               text=" Xe Tải Chở Thuê Minh Trí Chở Từ 750kg - 20 Tấn."
             />
             <ItemFirstFeatures
-              url="/imgs/add4.jpg"
+              url="https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/add4.jpg"
               text=" Xe Tải Chở Thuê Minh Trí Chở Từ 750kg - 20 Tấn."
             />
           </>

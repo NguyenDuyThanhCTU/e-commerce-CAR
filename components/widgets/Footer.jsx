@@ -4,7 +4,10 @@ const Footer = () => {
       <div className="flex justify-between pb-[43px] border-b-2">
         <div className="flex  flex-col ">
           <div className="ml-15 mb-2 w-[140px] h-[60px]">
-            <img src="imgs/logo.jpg" alt="" />
+            <img
+              src="https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/logo.jpg"
+              alt=""
+            />
           </div>
           <div className="flex flex-col font-light text-[16px] font-poppins">
             <a href="/">Xe Tải Chở Thuê Cần Thơ</a>

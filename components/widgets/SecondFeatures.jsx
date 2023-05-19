@@ -12,33 +12,39 @@ const SecondFeatures = () => {
     {
       uid: "a",
       name: "Dịch vụ chuyển nhà giá rẻ",
-      image: "/imgs/chuyennha.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/chuyennha.jpg",
     },
     {
       uid: "b",
       name: "Nhanh chóng & Gọn gàng",
-      image: "/imgs/chuyennha1.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/chuyennha1.jpg",
     },
 
     {
       uid: "c",
       name: "Đóng gói sạch sẽ",
-      image: "/imgs/chuyennha3.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/chuyennha3.jpg",
     },
     {
       uid: "d",
       name: "Chuyển máy lạnh",
-      image: "/imgs/chuyennha4.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/chuyennha4.jpg",
     },
     {
       uid: "e",
       name: "Dịch vụ chuyển nhà giá rẻ",
-      image: "/imgs/slider6.jpg",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/slider6.jpg",
     },
     {
       uid: "f",
       name: "Hút bụi sạch sẽ",
-      image: "/imgs/chuyennha2.gif",
+      image:
+        "https://ads-company-storage.s3.ap-southeast-2.amazonaws.com/xetaiminhtri/chuyennha2.gif",
     },
   ];
   return (
